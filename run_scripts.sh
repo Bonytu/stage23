@@ -1,4 +1,5 @@
-##
+#!/bin/bash
+
 mkdir stage23 && cp -r /workspaceblobstore/xin/stage/* ~/stage23/
 cp -r /workspaceblobstore/xin/.deepspeed_env ~/
 
