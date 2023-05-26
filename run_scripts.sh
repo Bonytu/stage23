@@ -4,7 +4,6 @@ mkdir stage23 && cp -r /workspaceblobstore/xin/stage/* ~/stage23/
 cp -r /workspaceblobstore/xin/.deepspeed_env ~/
 
 conda create -n bony python=3.9 -y
-
 conda init bash
 source ~/.bashrc
 conda activate bony
