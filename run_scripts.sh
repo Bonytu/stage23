@@ -8,6 +8,7 @@ conda init bash
 source ~/.bashrc
 conda activate bony
 
+cd ~/stage23
 pip install -r requirements.txt
 
 ## set deepseed for sudo
